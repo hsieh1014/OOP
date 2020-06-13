@@ -1,0 +1,33 @@
+- 資料、屬性、程式碼、方法
+an object is a unit of data(having one or more attributes), of a particular class or type, with associated functionality(methods)
+- 透過繼承 (inheritance) 程式碼重用
+- 透過多型 (polymorphism) 讓程式碼更有彈性
+- an object's interface is made up of its methods.
+- a method's often complex implementation is hidden behind the interface.
+- self -> the ID that instance given
+
+- 類別 class : blueprint for an instances.包含 attribute(var) 和 method(function)
+
+- 物件 object : the instance of the class
+- 實例 instance : a constructed object of the class
+
+- 方法 method : a callable attribute defined in the class
+-> methods often change an instance's state(its data).
+__init__ : automatically called when a new instance is constructed
+
+- 類型type : indicates the class the instance belongs to
+- 熟性 attribute : any object value (object.attribute)
+python looks for attribute first in the instance, and then the class
+
+- 封裝 Encapsulation
+-> attribute only change in class
+-> refer to the safe storage of data in an instance
+-> Data should be accessed only through instance method
+
+- 繼承 Inheritance
+  -> a child class can access the attributes of all parent classes
+  -> promotes code collaboration and reuse
+
+- 多型 Polymorphism
+  -> two classes with same interface (i.e. method name)
+  -> duck typing
