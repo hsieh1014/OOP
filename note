@@ -13,20 +13,24 @@ an object is a unit of data(having one or more attributes), of a particular clas
 
 - 方法 method : a callable attribute defined in the class
 -> methods often change an instance's state(its data).
-__init__ : constructor,automatically called when a new instance is constructed
+-> __init__ : constructor,automatically called when a new instance is constructed
+-> use the super() function to call methods in the parent class
 
 - 類型type : indicates the class the instance belongs to
 - 熟性 attribute : any object value (object.attribute)
 python looks for attribute first in the instance, and then the class
 
 - 封裝 Encapsulation
--> attribute only change in class
--> refer to the safe storage of data in an instance
--> Data should be accessed only through instance method
+ -> attribute only change in class
+ -> refer to the safe storage of data in an instance
+ -> Data should be accessed only through instance method
 
 - 繼承 Inheritance
   -> a child class can access the attributes of all parent classes
   -> promotes code collaboration and reuse
+  -> python allow multiple inheritance
+  -> by default, python will use a depth first search for an attribute
+  -> if it is diamond shape inheritance, python will use a branch first search for an attribute
 
 - 多型 Polymorphism
   -> two classes with same interface (i.e. method name)
