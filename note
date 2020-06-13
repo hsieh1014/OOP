@@ -13,7 +13,7 @@ an object is a unit of data(having one or more attributes), of a particular clas
 
 - 方法 method : a callable attribute defined in the class
 -> methods often change an instance's state(its data).
-__init__ : automatically called when a new instance is constructed
+__init__ : constructor,automatically called when a new instance is constructed
 
 - 類型type : indicates the class the instance belongs to
 - 熟性 attribute : any object value (object.attribute)
